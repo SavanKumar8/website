@@ -3,20 +3,26 @@ body{
 	font-family: 'Noto Sans', sans-serif;
 	background-color:		#F0F8FF;
 }
+.herounit{
+	padding-top: 125px;
+}
+.navigation{
+
+}
 
 .navigation li {
 	display: inline;
 	text-decoration:none;
-	padding-right: 10px;
+	/*padding-right: 10px;*/
 
 }
 
 .navigation a{
 	text-decoration:none;
-	color: black;
+	color: white;
 	font-size: 20px;
 	padding: 20Px;
-	float: right;
+	/*float: right;*/
 	border-bottom: 2px solid  #000000;
 }
 
@@ -51,6 +57,7 @@ header{
 	font-family: 'Kaushan Script', cursive;
 	overflow: hidden;
 	border-bottom: 2px solid 	#000000;
+	position: fixed;
 }
 
 .container_12{
@@ -86,4 +93,18 @@ text-align: center;
 
 h3{
 	border-bottom: 2px solid 	#000000;
+}
+
+.footer{
+	background-color:#99aa14;
+}
+
+.icons{
+display: inline;
+}
+
+.icons i{
+
+padding-right: 70px;
+
 }
